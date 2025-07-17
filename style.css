@@ -1,5 +1,4 @@
 /* add font  */
-
 .work-sans-font {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -95,3 +94,128 @@ header {
 }
 
 /* header section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobaile screen  start */
+@media screen and (max-width: 576px) {
+
+    /* header section start */
+    header {
+        max-width: 576px;
+        margin: 0px auto;
+        padding: 1rem;
+    }
+
+    .header-section-1 {
+        flex-direction: column;
+    }
+
+    .Architects-1 h1 {
+        font-size: 2rem;
+    }
+
+    .Architects-2 ul {
+        gap: 1.5rem;
+    }
+
+    .Architects-2 ul li a {
+        font-size: 1.2rem;
+    }
+
+    .header-section-2 {
+        padding: 1rem;
+    }
+
+    .header-section-2 h1 {
+        font-size: 2rem;
+    }
+
+    .header-section-2 p {
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .header-section-2 button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    /* header section end */
+
+
+
+}
+
+/* Mobaile screen end */
+
+/* Mudiam screen  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    /* header section start */
+    header {
+        max-width: 992px;
+        margin: 0px auto;
+        padding: 1rem;
+    }
+
+    .header-section-1 {
+        flex-direction: column;
+    }
+
+    .Architects-1 h1 {
+        font-size: 2rem;
+    }
+
+    .Architects-2 ul {
+        gap: 1.5rem;
+    }
+
+    .Architects-2 ul li a {
+        font-size: 1.2rem;
+    }
+
+    .header-section-2 {
+        padding: 1rem;
+    }
+
+    .header-section-2 h1 {
+        font-size: 2rem;
+    }
+
+    .header-section-2 p {
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .header-section-2 button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    /* header section end */
+
+
+
+}
+
+/* Mudiam screen end */
