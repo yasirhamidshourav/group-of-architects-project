@@ -288,7 +288,7 @@ main {
     }
 
     .Architects-2 ul {
-        gap: 1.5rem;
+        gap: 1.2rem;
     }
 
     .Architects-2 ul li a {
@@ -356,11 +356,32 @@ main {
 
     /* our eatures section end  */
 
+    /* Features section start */
+    .Features {
+        flex-direction: column;
+        padding: 0.2rem;
+    }
 
+    .Features-1 {
+        width: 100%;
+        padding: 0.2rem;
+    }
 
+    .Features-div-1 h1 {
+        font-size: 1.7rem;
+    }
+    .Features-2 {
+        width: 100%;
+        height: auto;
+    }
 
+    .Features-2 button {
+        font-size: 1rem;
+        margin: 3rem;
+        text-align: center;
+    }
 
-
+    /* Features section end */
 
 
 
@@ -397,7 +418,7 @@ main {
 
 
 
-
+            
 
 /* Mudiam screen  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -488,10 +509,29 @@ main {
     /* our eatures section end  */
 
 
+    /* Features section start */
+    .Features {
+        flex-direction: column;
+        padding: 0.2rem;
+    }
 
+    .Features-1 {
+        width: 100%;
+        padding: 0.2rem;
+    }
 
+    .Features-2 {
+        width: 100%;
+        height: auto;
+    }
 
+    .Features-2-button {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 6em;
+    }
 
+    /* Features section end */
 
 
 
